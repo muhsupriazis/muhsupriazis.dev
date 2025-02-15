@@ -1,3 +1,3 @@
 export function mdxP({ children } : { children: React.ReactNode }) {
-  return <p className="my-4">{children}</p>
+  return <p className="my-5 leading-relaxed">{children}</p>
 }

@@ -9,7 +9,7 @@
   --text-primary: #000000;
   --text-secondary: #444444;
   --highlight: #000000;
-  --link-color: #007aff;
+  --link-color: #000000;
   --accent: #00796b;
   --muted: #a0a0a0;
 }
@@ -22,7 +22,7 @@
     --text-primary: #ffffff;
     --text-secondary: #b0b0b0;
     --highlight: #ffffff;
-    --link-color: #4da6ff;
+    --link-color: #ffffff;
     --accent: #25a18e;
     --muted: #7f8c8d;
   }
@@ -49,11 +49,11 @@ p {
 a {
   color: var(--link-color);
   text-decoration: none;
-  font-weight: bold;
+  border-bottom: 1px solid var(--text-secondary);
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--foreground);
 }
 
 strong {
@@ -70,4 +70,10 @@ code {
 .time {
   color: var(--muted);
   font-size: 0.875rem;
+}
+
+.copy {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-top: 1rem;
 }
