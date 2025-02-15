@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased py-10`}
+        className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased py-6`}
       >
         <main className="font-[family-name:var(--font-inter)] p-6 ">
           <article>
