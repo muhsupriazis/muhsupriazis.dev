@@ -1,6 +1,11 @@
 import Link from "next/link";
 
-export function mdxA({ children, className = "", href, ...props } : any) {
+export function mdxA(
+  { children, className = "", href, ...props }
+  : 
+  React.AnchorHTMLAttributes<HTMLAnchorElement> & 
+  { children: React.ReactNode, className?: string, href: string }
+) {
   if (href[0] === "#") {
     return (
       <a
