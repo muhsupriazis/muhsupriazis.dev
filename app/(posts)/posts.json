@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Hello World",
+    "date": "Jan 2016",
+    "slug": "/2016/hello-world",
+    "author": "Muh Supri",
+    "summary": "Hello World! This is my first post."
+  },
+  {
+    "title": "Hello World 2",
+    "date": "Feb 2026",
+    "slug": "/2016/hello-world-2",
+    "author": "Muh Supri",
+    "summary": "Hello World! This is my second post."
+  },
+  {
+    "title": "Hello World 3",
+    "date": "Aug 2017",
+    "slug": "/2017/hello-world-3",
+    "author": "Muh Supri",
+    "summary": "Hello World! This is my third post."
+  }
+]
